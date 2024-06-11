@@ -102,6 +102,7 @@ class Entrega(Base):
         return dados_entrega
 
 
+
 # metodo para criar banco
 def init_db():
     Base.metadata.create_all(engine)

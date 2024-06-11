@@ -76,6 +76,7 @@ def consultar_funcionario():
                                   mimetype='application/json')
 
 
+
 @app.route('/updateFuncionario/<int:id>', methods=['PUT'])
 def update_fun(id):
     '''1- Atualiza o funcionario no banco de dados
